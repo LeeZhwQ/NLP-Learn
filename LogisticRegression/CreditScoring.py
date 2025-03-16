@@ -2,6 +2,8 @@ import pandas as pd
 
 from LogisticReg import x_scaler
 
+#data : https://www.kaggle.com/competitions/GiveMeSomeCredit/data?select=cs-training.csv
+
 data = pd.read_csv("cs-training.csv")
 print(data.head())
 print(data.shape)
